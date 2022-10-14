@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.container {
+    width: 80%;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3 ,30% );
+    justify-content: space-between;
+    gap: 5%;
+
+}
+img {
+    width: 200px ;
+    height: 200px;    
+}
+li {
+    border: 1px solid rgb(169, 167, 167);
+    padding: 10px 10px 40px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+i {
+    margin: 10px 0;
+    color: gold;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+h3 ,h1 {
+    color: #6E8A3C ;
+    font-weight: normal;
+}
+.price-discount {
+    font-size: 20px;
+    color: #666;
+}
+
+span {
+    color: #aaa;
+    font-size: 16px;
+    text-decoration: line-through;
+    padding-right: 5px;
+}
+#addcontent {
+    margin-top: 130px;
+    width: 220px;
+    border: 1px solid rgb(169, 167, 167);
+    color: #6E8A3C ;
+    padding: 15px;
+    
+
+}
+#btn {
+    cursor: pointer;
+    background-color: #6E8A3C;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 150px;
+}
+#tatalprice {
+   width: 100px ;
+   padding: 15px;
+   border-radius: 30px;
+   color: white;
+   text-align: center;
+   font-size: 17px;
+}
+
+
